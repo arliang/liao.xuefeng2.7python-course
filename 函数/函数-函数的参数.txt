@@ -1,0 +1,11 @@
+1函数的参数
+1.1 位置参数
+1.2 默认参数
+1.3 可变参数   #传入的参数的个数可变。自动组成一个tuple
+#def calc(*number):    #加*号即可
+	sum = 0
+	for n in number:
+		sum = sum + n * n
+	return sum
+	
+1.4 关键字参数  #可传入0个到任意个参数，自动组成一个dict。形式为 **str
