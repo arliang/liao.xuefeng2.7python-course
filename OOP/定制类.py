@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #定制类
 
-# __str__
+# __str__    C.__str__(self)        可打印的字符串输出；内建 str() 及 print() 函数
 
 class student(object):
 	def __init__(self,name):
@@ -13,9 +13,8 @@ class student(object):
 
 s = student('klaus')
 print s
-s
 
-# __iter__  迭代
+# __iter__  迭代    创建迭代类;内建 iter()
 #斐波那契数列
 
 class fib(object):
@@ -36,7 +35,7 @@ for n in f:     #直接迭代出
 	print n
 
 # __getitem__
-# #取某个值
+# #取某个值   得到单个序列元素
 
 class Fib(object):
 	def __init__(self):
@@ -80,7 +79,7 @@ print b[3:15]
 #list 切片
 print range(100)[10:20]
 
-#__getattr__
+#__getattr__    C.__getattr__(self,attr)        获取属性；内建 getattr()；仅在属性没有找到时调用
 class student_attr(object):
 
 	def __init__(self):
@@ -91,9 +90,50 @@ class student_attr(object):
 			return 99
 		if attr == 'age':
 			return lambda : 25
+		#raise AttributeError('\'Student\' object has no attribute \'%s\'' % attr)
 a = student_attr()
 print a.score
 print a.age()
+print a.abc
+
+class chain(object):
+	def __init__(self,path = ''):
+		self._path = path
+
+	def __getattr__(self, path):
+		return chain('%s/%s'%(self._path,path))
+
+	def __str__(self):
+		return self._path
+
+print chain().status.user.timeline.list
+
+class chain_2(object):
+	def __init__(self,path = ''):
+		self._path = path
+
+
+
+
+
+
+
+
+#__call__
+
+class Chain_2(object):
+	def __init__(self, path=''):
+		self._path = path
+	def __getattr__(self, path):
+		return Chain_2('%s/%s' % (self._path, path))
+	def __str__(self):        #返回路径
+		return self._path
+	def __call__(self,name):   #直接对实例调用
+		return Chain_2('GET %s/%s'% (self._path,name))
+
+print Chain_2().users('michael').repos
+
+
 
 
 
