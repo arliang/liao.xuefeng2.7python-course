@@ -113,12 +113,6 @@ class chain_2(object):
 		self._path = path
 
 
-
-
-
-
-
-
 #__call__
 
 class Chain_2(object):
