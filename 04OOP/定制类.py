@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #定制类
 
-# __str__    C.__str__(self)        可打印的字符串输出；内建 str() 及 print() 函数
+# __str__    C.__str__(self)        可打印的字符串输出；内建 str() 及 print() 02函数
 
 class student(object):
 	def __init__(self,name):

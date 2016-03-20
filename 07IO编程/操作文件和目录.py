@@ -22,8 +22,8 @@ os.rmdir('./testdir')    #删除目录
 
 #拆分路径
 
-os.path.split('../OOP')
-print os.path.splitext('../OOP/OOP.py')   #获取文件扩展名
+os.path.split('../04OOP')
+print os.path.splitext('../04OOP/OOP.py')   #获取文件扩展名
 
 #对文件重命名
 with open('./bbbb.txt','w') as f:

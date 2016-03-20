@@ -8,7 +8,6 @@ local_school = threading.local()
 
 def process_student():
 	print 'hello,%s (in %s)'%(local_school.student,threading.current_thread().name)
-
 def process_thread(name):
 	local_school.student = name
 	process_student()

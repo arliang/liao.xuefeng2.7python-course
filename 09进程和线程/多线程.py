@@ -1,6 +1,6 @@
 # coding=utf-8
 #多线程 一般使用threading
-#Python的threading模块有个current_thread()函数，它永远返回当前线程的实例。 current 现在的
+#Python的threading模块有个current_thread()02函数，它永远返回当前线程的实例。 current 现在的
 import time,threading
 
 #新线程执行的代码
