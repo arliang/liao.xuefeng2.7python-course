@@ -41,7 +41,7 @@ def pulic(name):     #使用公有函数调用私有函数
 		return _private2(name)
 
 
-from PIL import Image
+from PIL_pratice import Image
 dj = Image.open('dj.jpg')
 print dj.format,dj.size,dj.mode
 dj.thumbnail((200,100))

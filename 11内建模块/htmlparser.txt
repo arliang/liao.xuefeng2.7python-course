@@ -1,0 +1,24 @@
+Title:PyDay Loja 2016	|Time:01 April 	|Location:Centro de Emprendimiento Prendho, Loja, Ecuador|
+Title:PythonCamp Cologne 2016	|Time:02 April 	|Location:GFU Cyrus AG, Am Grauen Stein 27, 51105 Köln, Germany|
+Title:PyData Madrid 2016	|Time:08 April 	|Location:BBVA Innovation Center, Saint Bárbara Square, 2, 28004 Madrid, Spain and Campus Madrid, Moreno Nieto Street, 2, 28005 Madrid, Spain|
+Title:PyData Florence 2016	|Time:15 April 	|Location:Grand Hotel Mediterraneo, Lungarno del Tempio, 44, 50121 Firenze, Italy|
+Title:PyCon Italia 2016 (PyCon Sette)	|Time:15 April 	|Location:Hotel Mediterraneo, Lungarno del Tempio, Florence, Italia|
+Title:Piter Py #3 - Python Conference	|Time:22 April 	|Location:St. Petersburg, Russia|
+Title:PyData Amsterdam 2016	|Time:12 March 	|Location:UNDERCURRENT, Papaverweg 265, 1032 KJ Amsterdam, Netherlands|
+Title:PyCon SK 2016	|Time:11 March 	|Location:Faculty of Informatics and Information Technologies STU, Bratislava, Ilkovičova,  842 16 Bratislava 4,  Slovak Republic|
+Title:PyDay Loja 2016	|Time:01 April 	|Location:Centro de Emprendimiento Prendho, Loja, Ecuador|
+Title:PythonCamp Cologne 2016	|Time:02 April 	|Location:GFU Cyrus AG, Am Grauen Stein 27, 51105 Köln, Germany|
+Title:PyData Madrid 2016	|Time:08 April 	|Location:BBVA Innovation Center, Saint Bárbara Square, 2, 28004 Madrid, Spain and Campus Madrid, Moreno Nieto Street, 2, 28005 Madrid, Spain|
+Title:PyData Florence 2016	|Time:15 April 	|Location:Grand Hotel Mediterraneo, Lungarno del Tempio, 44, 50121 Firenze, Italy|
+Title:PyCon Italia 2016 (PyCon Sette)	|Time:15 April 	|Location:Hotel Mediterraneo, Lungarno del Tempio, Florence, Italia|
+Title:Piter Py #3 - Python Conference	|Time:22 April 	|Location:St. Petersburg, Russia|
+Title:PyData Amsterdam 2016	|Time:12 March 	|Location:UNDERCURRENT, Papaverweg 265, 1032 KJ Amsterdam, Netherlands|
+Title:PyCon SK 2016	|Time:11 March 	|Location:Faculty of Informatics and Information Technologies STU, Bratislava, Ilkovičova,  842 16 Bratislava 4,  Slovak Republic|
+Title:PyDay Loja 2016	|Time:01 April 	|Location:Centro de Emprendimiento Prendho, Loja, Ecuador|
+Title:PythonCamp Cologne 2016	|Time:02 April 	|Location:GFU Cyrus AG, Am Grauen Stein 27, 51105 Köln, Germany|
+Title:PyData Madrid 2016	|Time:08 April 	|Location:BBVA Innovation Center, Saint Bárbara Square, 2, 28004 Madrid, Spain and Campus Madrid, Moreno Nieto Street, 2, 28005 Madrid, Spain|
+Title:PyData Florence 2016	|Time:15 April 	|Location:Grand Hotel Mediterraneo, Lungarno del Tempio, 44, 50121 Firenze, Italy|
+Title:PyCon Italia 2016 (PyCon Sette)	|Time:15 April 	|Location:Hotel Mediterraneo, Lungarno del Tempio, Florence, Italia|
+Title:Piter Py #3 - Python Conference	|Time:22 April 	|Location:St. Petersburg, Russia|
+Title:PyData Amsterdam 2016	|Time:12 March 	|Location:UNDERCURRENT, Papaverweg 265, 1032 KJ Amsterdam, Netherlands|
+Title:PyCon SK 2016	|Time:11 March 	|Location:Faculty of Informatics and Information Technologies STU, Bratislava, Ilkovičova,  842 16 Bratislava 4,  Slovak Republic|

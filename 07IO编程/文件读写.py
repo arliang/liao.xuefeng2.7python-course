@@ -1,7 +1,7 @@
 # !/usr/bin/env python
 # -*- coding:utf-8 -*-
 #文件读写
-import base64
+import base64_partice
 desktop_path = 'C:/Users/moonq/Desktop'     #定义默认路径
 f = open(desktop_path + '/bbbb.txt','w')      #创建新文本
 f.write('hello')                          #写入str
@@ -21,7 +21,7 @@ print change_img
 #图片文字互转
 #注意 import base64
 with open(desktop_path + '/zhihu.jpg','rb') as image_flie:
-	str = base64.b64encode(image_flie.read())               #将图片转化为文本
+	str = base64_partice.b64encode(image_flie.read())               #将图片转化为文本
 with open(desktop_path + '/zhihu_str.txt','w')  as image_str:
 	image_str.write(str)                                                 #将文本写入文件
 
